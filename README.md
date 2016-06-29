@@ -1,6 +1,6 @@
 # EdgeInsetsLabel
 
-![demo1.png](/EdgeInsetsLabel/demo.png)   ![demo2.png](/EdgeInsetsLabel/demo2.png)
+![demo1.png](/EdgeInsetsLabel/demo.png)
 
 > UILabel的定制,主要用于文字位置的调节
 

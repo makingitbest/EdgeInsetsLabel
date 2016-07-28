@@ -23,7 +23,7 @@
     [super viewDidLoad];
 
     // 自定义的label -- EdgeInsetsLabel
-    self.textlabel                   = [[EdgeInsetsLabel alloc] initWithFrame:CGRectMake(10, 44, self.view.frame.size.width - 20,150)];
+    self.textlabel                   = [[EdgeInsetsLabel alloc] initWithFrame:CGRectMake(10, 44, self.view.frame.size.width - 20,100)];
     self.textlabel.backgroundColor   = [UIColor orangeColor];
     self.textlabel.font              = [UIFont boldSystemFontOfSize:13];
     self.textlabel.textColor         = [UIColor blueColor];
@@ -33,7 +33,7 @@
     //设置的label的高度没什么影响,不论多高多低, 左右边距都是按照  edgeInsets  的值来算
     self.textlabel.edgeInsets        = UIEdgeInsetsMake(50, 10, 30, 100); //上 左 下 右
     
-    self.textlabel.text = @"自定义label:      戌楼响过更鼓/路上断了行人形影/秋天的边境/传来孤雁悲切的鸣声/今日正是白露/忽然想起远方兄弟/望月怀思/觉得故乡月儿更圆更明.可怜有兄弟/却各自东西海角天涯/有家若无/是死是生我何处去打听/平时寄去书信/常常总是无法到达/更何况烽火连天/叛乱还没有治平.";
+    self.textlabel.text = @"自定义label:       戌楼响过更鼓/路上断了行人形影/秋天的边境/传来孤雁悲切的鸣声/今日正是白露/忽然想起远方兄弟/望月怀思/觉得故乡月儿更圆更明.可怜有兄弟/却各自东西海角天涯/有家若无/是死是生我何处去打听/平时寄去书信/常常总是无法到达/更何况烽火连天/叛乱还没有治平可怜有兄弟. ";
     //sizeToFit 会根据字体调节label的大小
     [self.textlabel sizeToFit];
     [self.view addSubview:self.textlabel];
